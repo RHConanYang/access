@@ -8,8 +8,6 @@
 
 import SwiftUI
 
-
-
 struct ContentView: View {
     @ObservedObject var networkingManager: NetworkManaged = NetworkManaged()
     var body: some View {

@@ -8,4 +8,4 @@ try latest swiftUI to buuld a list
 ## View
 1. ContentView: add ObservedObject from NetworkManaged
 2. userRowView: tableView of swiftUI, using VStack and HStack
-3. ImageViewWidget: configure the image detail
+3. ImageViewWidget: configure the image layout detail
