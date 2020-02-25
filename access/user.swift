@@ -16,9 +16,6 @@ struct UserEntry: Decodable, Identifiable{
     let site_admin: Bool
 }
 
-//struct UserAPI: Decodable {
-//    var results: [UserEntry]
-//}
 
 class NetworkManaged: ObservableObject {
     @Published var userList: [UserEntry] = [UserEntry]()
@@ -68,25 +65,3 @@ class ImageLoader:ObservableObject
         getImage(imageURL: imageURL)
     }
 }
-
-
-
-//func fatchUser(completion: @escaping (Result<[User], Error>) -> ()) {
-//    let urlString = "https://api.github.com/users?since=135"
-//    guard let url = URL(string: urlString) else{return}
-//    URLSession.shared.dataTask(with: url) { (data, resp, err) in
-//        if let err = err {
-//            completion(.failure(err))
-//            return
-//        }
-//        do {
-//            let users = try JSONDecoder().decode([User].self, from: data!)
-//            completion(.success(users))
-//
-//        } catch let jsonError {
-//            completion(.failure(jsonError))
-//        }
-//    }.resume()
-//
-//
-//}

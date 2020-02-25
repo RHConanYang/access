@@ -40,10 +40,9 @@ struct userRowView:View
                 VStack(alignment: .leading, spacing: 1){
                     Text(user.login).foregroundColor(Color.gray)
                     if user.site_admin == true {
-                        Text("Admin").foregroundColor(Color.gray).fixedSize().frame(width: 50, height: 30, alignment: .center).background(Color.init(.purple)).cornerRadius(25)
+                    Text("Admin").foregroundColor(Color.black).fixedSize().frame(width: 60, height: 30, alignment: .center).background(Color.init(.purple)).cornerRadius(25)
                     }else{
-                        Text("User").foregroundColor(Color.gray).fixedSize().frame(width: 50, height: 30, alignment: .center).background(Color.init(.green)).cornerRadius(25)
-
+                        Text("")
                     }
                 }
             }
