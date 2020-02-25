@@ -43,9 +43,6 @@ class NetworkManaged: ObservableObject {
     
 }
 
-
-
-
 class ImageLoader:ObservableObject
 {
     @Published var data:Data = Data()
