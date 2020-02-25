@@ -11,8 +11,10 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var networkingManager: NetworkManaged = NetworkManaged()
     var body: some View {
-        List(networkingManager.userList) {
-            userRowView(user: $0)
+        NavigationView {
+            List(networkingManager.userList) {
+                userRowView(user: $0)
+            }.navigationBarTitle(Text("Access"))
         }
     }
 }
