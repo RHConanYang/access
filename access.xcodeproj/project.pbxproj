@@ -13,6 +13,7 @@
 		EC9A2929240377A60051381E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9A2928240377A60051381E /* Assets.xcassets */; };
 		EC9A292C240377A60051381E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9A292B240377A60051381E /* Preview Assets.xcassets */; };
 		EC9A292F240377A60051381E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9A292D240377A60051381E /* LaunchScreen.storyboard */; };
+		EC9A293924037D160051381E /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9A293824037D160051381E /* user.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EC9A292B240377A60051381E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC9A292E240377A60051381E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC9A2930240377A60051381E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9A293824037D160051381E /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EC9A2922240377A20051381E /* AppDelegate.swift */,
 				EC9A2924240377A20051381E /* SceneDelegate.swift */,
 				EC9A2926240377A20051381E /* ContentView.swift */,
+				EC9A293824037D160051381E /* user.swift */,
 				EC9A2928240377A60051381E /* Assets.xcassets */,
 				EC9A292D240377A60051381E /* LaunchScreen.storyboard */,
 				EC9A2930240377A60051381E /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9A293924037D160051381E /* user.swift in Sources */,
 				EC9A2923240377A20051381E /* AppDelegate.swift in Sources */,
 				EC9A2925240377A20051381E /* SceneDelegate.swift in Sources */,
 				EC9A2927240377A20051381E /* ContentView.swift in Sources */,
